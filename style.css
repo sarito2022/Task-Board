@@ -1,0 +1,144 @@
+.main{
+    width: 100%;
+    height: 1500px;
+    background-image: url('tile.jpg'); 
+    background-repeat: repeat;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+}
+.main .title img{
+    height: 65px;
+}
+.rishum{
+    width: 700px;
+    height: 200px;
+    background-image: url('formbg.jpg');
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-position: center center; 
+    margin: 0 auto;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    color: rgb(216, 112, 192);
+}
+input{
+    width: 188px; 
+    height: 23px; 
+    border:2px solid #d8f805;
+    border-radius: 4px;
+    text-align: center;
+}  
+button{
+    border:2px solid palevioletred;
+    border-radius: 4px;
+    color: black;
+}
+.form_info{
+	width:600px;
+	margin:0 auto;
+}
+.inner_form_div{
+    width:180px; 
+    float:left; 
+    margin-left:207px;
+}
+.inner_form_span{
+    width:180px; 
+    float:left; 
+}
+.br{
+    clear:both;
+}
+.eror{
+    display:none;
+    color: red;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+}
+.text{
+    width: 170px;
+    height: 186px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top:30px;
+    left:15px;
+    overflow: auto;
+}
+.date{
+    width: 175px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+    position: absolute;
+    bottom: 40px  ;
+    left: 15px;
+}
+.hour{
+    width: 175px;
+    height: 20px;
+    font-size:20px;
+    font-weight: bold;
+    color:red;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+.close{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+}
+.myPetek:hover>.close {
+    display:inline-block;
+}
+.myPetek{
+    width: 240px;
+    height: 280px;
+    background-image: url('notebg.png');
+    background-repeat: no-repeat;
+    background-size: 240px 280px;
+    position: relative;
+}
+.myContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 42px;
+}
+.fade-in-image{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-o-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-ms-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
